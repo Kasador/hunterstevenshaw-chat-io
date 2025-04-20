@@ -4,7 +4,7 @@
 
 ### Curent Preview of Project
 
-<img src="https://github.com/user-attachments/assets/665f1ba8-e4d4-4313-9a94-5860e1b1a5e6" width="500" />
+<img src="https://github.com/user-attachments/assets/c0eff95b-13b6-434e-b0f9-c53a7003b74c" width="500" />
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3cf6e273-2a60-4856-bd7e-e1924380580f/deploy-status)](https://app.netlify.com/sites/hunterstevenshaw-chat-io/deploys)
 
