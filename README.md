@@ -1,3 +1,29 @@
+# Overview to <br> **hunterstevenshaw-chat-io**
+
+[![Development Tools](https://skillicons.dev/icons?i=vscode,windows,apple,github)](https://skillicons.dev)
+
+### Curent Preview of Project
+
+<img src="https://github.com/user-attachments/assets/665f1ba8-e4d4-4313-9a94-5860e1b1a5e6" width="500" />
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cf6e273-2a60-4856-bd7e-e1924380580f/deploy-status)](https://app.netlify.com/sites/hunterstevenshaw-chat-io/deploys)
+
+**Github:** [https://github.com/Kasador/hunterstevenshaw-chat-io](https://github.com/Kasador/hunterstevenshaw-chat-io)
+
+**Live URL:** [https://hunterstevenshaw-chat-io.netlify.app/](https://hunterstevenshaw-chat-io.netlify.app/)
+
+## 🖥️ chat-io
+
+This is a remake of my [7 year old chat-io](https://github.com/Kasador/chat-io) chat application. This will be using React + Vite and the MERN stack for making my own RESTFUL API. Development of this chat application will be using the [stocket.io low-latency communication](https://socket.io/how-to/use-with-react), connecting the data to my API and then from there, storing the data into MongoDB. This app is built using _**npm create vite@latest**_ for the frontend and _**NodeJS/ExpressJS**_ for the backend. Thus tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
+
+## Tech Stack Used - **MERN**
+
+[![Development Tools](https://skillicons.dev/icons?i=html,css,javascript,react)](https://skillicons.dev)
+
+[![Development Tools](https://skillicons.dev/icons?i=typescript,tailwindcss,netlify,heroku)](https://skillicons.dev)
+
+[![Development Tools](https://skillicons.dev/icons?i=mongodb,nodejs,expressjs,vite)](https://skillicons.dev)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
