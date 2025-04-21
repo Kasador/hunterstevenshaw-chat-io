@@ -6,6 +6,10 @@
 
 <img src="https://github.com/user-attachments/assets/dcb3520e-a94e-4c44-92ab-647750a9b2d5" width="500" />
 
+### Feat: Added change background
+
+<img src="https://github.com/user-attachments/assets/3e918db9-147e-4a34-9f57-085b7100e4ac" width="500" />
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3cf6e273-2a60-4856-bd7e-e1924380580f/deploy-status)](https://app.netlify.com/sites/hunterstevenshaw-chat-io/deploys)
 
 **Github:** [https://github.com/Kasador/hunterstevenshaw-chat-io](https://github.com/Kasador/hunterstevenshaw-chat-io)
