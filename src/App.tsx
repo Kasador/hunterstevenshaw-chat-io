@@ -5,9 +5,9 @@ import PhoneView from './components/PhoneView'
 import User from './components/User'
 import { useState } from 'react'
 import BackgroundImg from './assets/images/naruto.png'
-
 // https://stackoverflow.com/questions/51977823/type-void-is-not-assignable-to-type-event-mouseeventhtmlinputelement
 // https://stackoverflow.com/questions/69161276/type-string-is-not-assignable-to-type-position
+import { io } from "socket.io-client";
 
 export default function App() {
   const [backgroundImage, setBackgroundImage] = useState('');
@@ -35,6 +35,12 @@ export default function App() {
     height: '100%',
     position: 'fixed'
   }
+
+  const socket = io('ws://localhost:4000');
+  socket.on('connect', () => {
+    console.log("WebSocket connected to client-side.");
+  });
+
   return (
     <section className='text-gray-900' style={styles}>
      <img src={Phone} alt="Phone View Graphic of iPhone" className='h-200 w-120 absolute bottom-0 right-0'/>
