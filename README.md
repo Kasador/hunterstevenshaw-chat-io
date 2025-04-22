@@ -6,6 +6,10 @@
 
 <img src="https://github.com/user-attachments/assets/dcb3520e-a94e-4c44-92ab-647750a9b2d5" width="500" />
 
+### Socket.io Connected
+
+<img src="https://github.com/user-attachments/assets/0693432e-946a-4dd9-a425-a847170cd0a1" width="500" />
+
 ### Feat: Added change background
 
 <img src="https://github.com/user-attachments/assets/3e918db9-147e-4a34-9f57-085b7100e4ac" width="500" />

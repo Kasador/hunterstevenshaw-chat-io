@@ -1,6 +1,7 @@
 // https://stackoverflow.com/questions/69099763/referenceerror-require-is-not-defined-in-es-module-scope-you-can-use-import-in
 // https://www.npmjs.com/package/lru-cache
 // https://www.npmjs.com/package/jsonwebtoken
+// https://socket.io/docs/v3/server-initialization/
 
 import { config } from 'dotenv'
 import express from 'express'
@@ -24,11 +25,15 @@ const io = new Server(httpServer, {
 io.on('connection', (socket) => {
   console.log(`User ${socket.id} connected.`)
   
+  socket.on('message', data => {
+    console.log(data)
+    io.emit('message', `${socket.id.substring(0,5)}: ${data}`)
+  })
   socket.on('disconnect', () => console.log('User disconnected'));
 });
 
-httpServer.listen(3500, () => {
-  console.log(`Socket.io listening on port 3500`)
+httpServer.listen(4000, () => {
+  console.log(`Socket.io listening on port 4000`)
 })
 
 app.use(cors())
