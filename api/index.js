@@ -13,7 +13,7 @@ config()
 // const cors = require('cors')
 // const routeHandler = require('./routes');
 const app = express()
-const httpServer = createServer();
+const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: { 
     origin: '*',
@@ -27,12 +27,8 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => console.log('User disconnected'));
 });
 
-httpServer.get('/', (req, res) => {
-  res.status(200).json({sucess: true, message: 'stocket.io is up and running...'})
-});
-
 httpServer.listen(3500, () => {
-  console.log(`Socket.io listening on port 3500}`)
+  console.log(`Socket.io listening on port 3500`)
 })
 
 app.use(cors())
