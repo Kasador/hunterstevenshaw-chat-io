@@ -1,5 +1,7 @@
 import Users from '../models/Users.js'
 
+// https://medium.com/@edhalliwell/chat-app-driven-by-websockets-using-socket-io-and-typescript-ed49611d6077
+
 export const getAllUsers = async (req, res) => { // /api/users endpoint
     try {
         const data = await Users.find({}) // pull back all data from schema 
